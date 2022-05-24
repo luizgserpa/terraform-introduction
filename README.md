@@ -16,6 +16,8 @@ Nesse repositório serão encontrados códigos Terraform com o objetivo de provi
 
  - [Subnet](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
 
+- [Route](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route)
+
 - [Route Table](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table)
 
 - [Route Table Association](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association)

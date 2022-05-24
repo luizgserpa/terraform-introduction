@@ -26,8 +26,6 @@ resource "aws_route_table_association" "main_private" {
   route_table_id = aws_route_table.main_private.id
 }
 
-
-
 resource "aws_route" "main_private_gw" {
   route_table_id         = aws_route_table.main_private.id
   destination_cidr_block = "0.0.0.0/0"

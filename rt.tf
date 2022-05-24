@@ -1,7 +1,8 @@
 resource "aws_route_table" "main_public" {
   vpc_id = aws_vpc.main.id
-
-  route = []
+  tags = {
+    "Name" = "Public RT"
+  }
 }
 
 resource "aws_route_table_association" "main_public" {
@@ -18,7 +19,9 @@ resource "aws_route" "main_public_gw" {
 resource "aws_route_table" "main_private" {
   vpc_id = aws_vpc.main.id
 
-  route = []
+  tags = {
+    "Name" = "Private RT"
+  }
 }
 
 resource "aws_route_table_association" "main_private" {

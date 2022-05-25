@@ -1,3 +1,5 @@
+[![Deploy Infrastructure](https://github.com/luizgserpa/terraform-introduction/actions/workflows/actions.yaml/badge.svg)](https://github.com/luizgserpa/terraform-introduction/actions/workflows/actions.yaml)
+
 # Introdução ao Terraform
  
 Nesse repositório serão encontrados códigos Terraform com o objetivo de provisionar uma fundação simplificada de rede na AWS e uma EC2 rodando um NGINX.
